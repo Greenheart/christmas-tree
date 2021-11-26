@@ -77,6 +77,7 @@
             <ChristmasTree
                 onToggle={() => {
                     if (paused) {
+                        audio.load()
                         audio.play()
                     }
                 }}
