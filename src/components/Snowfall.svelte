@@ -1,4 +1,5 @@
 <script lang="ts" context="module">
+    // IDEA: render number of trees proportionate to how large the screen is
     const snowflakes = [...Array(250).keys()]
 </script>
 

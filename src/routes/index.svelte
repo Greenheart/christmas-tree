@@ -64,18 +64,15 @@
     <source src={track.src} />
 </audio>
 
-<!-- TODO: Ensure text is legible on all screen sizes -->
-<!-- TODO: Add comment to decorate the tree at the start -->
-
 <div class="w-full min-h-screen bg-[#16323d]">
     <Snowfall />
     <div
         class="w-full min-h-screen items-center flex flex-col justify-between z-10"
     >
-        <div class="text-center text-white mt-8 z-20 text-2xl">
+        <div class="text-center text-white mt-8 z-20 text-lg md:text-2xl">
             <h1 class="font-bold">The Most Sustainable Christmas Tree</h1>
-            <p class="text-gray-400 text-xl">
-                Thanks to you, one more tree was saved this year!
+            <p class="text-gray-400 text-lg md:text-xl">
+                Thank you for choosing this tree and saving a real one!
             </p>
         </div>
         <div>
@@ -87,8 +84,12 @@
         </div>
 
         <div class="w-full text-center p-4 z-20">
-            {#if !paused}
-                <div class="flex space-x-4 items-center justify-center">
+            <div class="flex space-x-4 items-center justify-center mb-24">
+                {#if paused}
+                    <p class="text-lg text-white">
+                        Decorate the tree by clicking it 🎅
+                    </p>
+                {:else}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5 cursor-pointer hover:text-white"
@@ -105,12 +106,12 @@
                         target="_blank"
                         class="text-blue-500 hover:underline">{track.name}</a
                     >
-                </div>
-                <br class="my-12" />
-            {/if}
-            <div class="text-xl">
+                {/if}
+            </div>
+            <!-- IDEA: Make it possible to toggle credits, keep them minimized by default for small screens and open for larger screens -->
+            <div class="text-lg md:text-xl">
                 <h2 class="font-bold text-white">Credits:</h2>
-                <div class="text-lg flex flex-col">
+                <div class="md:text-lg flex flex-col">
                     {#each inspirationLinks as { link, description } (link)}
                         <a
                             href={link}
