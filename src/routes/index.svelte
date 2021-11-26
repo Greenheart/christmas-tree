@@ -40,6 +40,7 @@
 
     let paused = true
     let muted = false
+    let credits = false
     let track = musicTracks['allyefaithful']
     let audio: HTMLAudioElement
 
@@ -108,20 +109,28 @@
                     >
                 {/if}
             </div>
-            <!-- IDEA: Make it possible to toggle credits, keep them minimized by default for small screens and open for larger screens -->
-            <div class="text-lg md:text-xl">
-                <h2 class="font-bold text-white">Credits:</h2>
-                <div class="md:text-lg flex flex-col">
-                    {#each inspirationLinks as { link, description } (link)}
-                        <a
-                            href={link}
-                            class="text-blue-500 hover:underline"
-                            target="_blank"
-                        >
-                            {description}
-                        </a>
-                    {/each}
-                </div>
+            <div>
+                <button
+                    class="tracking-wider text-white cursor-pointer border border-white px-6 py-2 flex mx-auto items-center justify-center hover:bg-white hover:text-[#f34653] text-lg md:text-xl"
+                    on:click={() => {
+                        credits = !credits
+                    }}
+                >
+                    Credits
+                </button>
+                {#if credits}
+                    <div class="md:text-lg flex flex-col mt-3">
+                        {#each inspirationLinks as { link, description } (link)}
+                            <a
+                                href={link}
+                                class="text-blue-500 hover:underline"
+                                target="_blank"
+                            >
+                                {description}
+                            </a>
+                        {/each}
+                    </div>
+                {/if}
             </div>
         </div>
     </div>
