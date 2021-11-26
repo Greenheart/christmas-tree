@@ -85,15 +85,17 @@
         </div>
 
         <div class="w-full text-center p-4 z-20">
-            <div class="flex space-x-4 items-center justify-center mb-24">
+            <div
+                class="flex space-x-4 items-center justify-center mb-24 text-lg"
+            >
                 {#if paused}
-                    <p class="text-lg text-white">
+                    <p class="text-white">
                         Decorate the tree by clicking it 🎅
                     </p>
                 {:else}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 cursor-pointer hover:text-white"
+                        class="h-8 w-8 cursor-pointer hover:text-white"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                         on:click={toggleTrack}
