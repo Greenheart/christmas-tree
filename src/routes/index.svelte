@@ -39,13 +39,11 @@
     import '../global.css'
 
     let paused = true
-    let muted = false
     let credits = false
     let track = musicTracks['allyefaithful']
     let audio: HTMLAudioElement
 
     const toggleTrack = () => {
-        audio.pause()
         track =
             track === musicTracks['jul']
                 ? musicTracks['allyefaithful']
@@ -55,9 +53,9 @@
     }
 </script>
 
+<!-- TODO: Bug: audio doesn't play on mobile until snowfall has started fully, and track has been toggled a couple of times. -->
 <audio
     bind:paused
-    bind:muted
     bind:this={audio}
     preload="auto"
     on:ended={() => toggleTrack()}
@@ -86,7 +84,7 @@
 
         <div class="w-full text-center p-4 z-20">
             <div
-                class="flex space-x-4 items-center justify-center mb-24 text-lg"
+                class="flex space-x-4 items-center justify-center mb-24 md:text-lg"
             >
                 {#if paused}
                     <p class="text-white">
