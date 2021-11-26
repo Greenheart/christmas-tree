@@ -33,6 +33,7 @@
 </script>
 
 <script lang="ts">
+    import Div100vh from '../components/Div100vh.svelte'
     import ChristmasTree from '../components/ChristmasTree.svelte'
     import Snowfall from '../components/Snowfall.svelte'
 
@@ -63,11 +64,9 @@
     <source src={track.src} />
 </audio>
 
-<div class="w-full min-h-screen bg-[#16323d]">
+<Div100vh class="w-full h-full bg-[#13323d]">
     <Snowfall />
-    <div
-        class="w-full min-h-screen items-center flex flex-col justify-between z-10"
-    >
+    <div class="w-full h-full items-center flex flex-col justify-between z-10">
         <div class="text-center text-white mt-8 z-20 text-lg md:text-2xl">
             <h1 class="font-bold">The Most Sustainable Christmas Tree</h1>
             <p class="text-gray-400 text-lg md:text-xl">
@@ -134,4 +133,4 @@
             </div>
         </div>
     </div>
-</div>
+</Div100vh>
