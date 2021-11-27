@@ -1,26 +1,27 @@
 <script lang="ts">
-    export let onToggle: () => void
-    let active = false
+    import { play, paused } from '$lib/player'
+
+    let decorated = false
 </script>
 
 <div
     id="christmas-tree"
     class="hover:transform hover:scale-105 transition-all duration-200"
     on:pointerdown={() => {
-        active = !active
-        onToggle()
+        decorated = !decorated
+        if ($paused) play()
     }}
 >
-    <div class="tree" class:active>
+    <div class="tree" class:decorated>
         <div class="tree-details" />
     </div>
-    <div class="lights" class:active>
+    <div class="lights" class:decorated>
         <div class="row-one" />
         <div class="row-two" />
     </div>
-    <div class="balls" class:active />
-    <div class="star" class:active />
-    <div class="shadow" class:active />
+    <div class="balls" class:decorated />
+    <div class="star" class:decorated />
+    <div class="shadow" class:decorated />
 </div>
 
 <style>
@@ -39,7 +40,7 @@
         height: 0;
     }
 
-    .tree.active {
+    .tree.decorated {
         animation: drop 1s linear;
     }
 
@@ -94,7 +95,7 @@
         position: absolute;
         opacity: 0;
     }
-    .lights.active {
+    .lights.decorated {
         animation: light 2s linear infinite, drop 1s linear 0.5s forwards;
     }
 
@@ -146,7 +147,7 @@
         box-shadow: -20px -55px #f34653, 25px -70px #f34653;
     }
 
-    .balls.active {
+    .balls.decorated {
         animation: drop 1s linear 1s forwards;
     }
 
@@ -188,7 +189,7 @@
         left: -9px;
         opacity: 0;
     }
-    .star.active {
+    .star.decorated {
         animation: dropStar 1s linear 1.5s forwards;
     }
 

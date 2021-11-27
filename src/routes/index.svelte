@@ -17,52 +17,18 @@
             description: 'Mashup by Samuel Plumppu',
         },
     ]
-
-    const musicTracks = {
-        jul: {
-            src: './sb_jul.mp3',
-            name: 'Jul - Scott Buckley',
-            link: 'https://www.scottbuckley.com.au/library/jul',
-        },
-        allyefaithful: {
-            src: './sb_allyefaithful.mp3',
-            name: 'O Come All Ye Faithful - Scott Buckley',
-            link: 'https://www.scottbuckley.com.au/library/o-come-all-ye-faithful',
-        },
-    }
 </script>
 
 <script lang="ts">
     import Div100vh from '../components/Div100vh.svelte'
     import ChristmasTree from '../components/ChristmasTree.svelte'
     import Snowfall from '../components/Snowfall.svelte'
+    import { paused, playlist, skip, currentIndex } from '$lib/player'
 
     import '../global.css'
 
-    let paused = true
     let credits = false
-    let track = musicTracks['allyefaithful']
-    let audio: HTMLAudioElement
-
-    const toggleTrack = () => {
-        track =
-            track === musicTracks['jul']
-                ? musicTracks['allyefaithful']
-                : musicTracks['jul']
-        audio.load()
-        audio.play()
-    }
 </script>
-
-<!-- TODO: Bug: audio doesn't play on mobile until snowfall has started fully, and track has been toggled a couple of times. -->
-<audio
-    bind:paused
-    bind:this={audio}
-    preload="auto"
-    on:ended={() => toggleTrack()}
->
-    <source src={track.src} />
-</audio>
 
 <Div100vh class="w-full min-h-screen h-screen bg-[#13323d]">
     <Snowfall />
@@ -74,21 +40,14 @@
             </p>
         </div>
         <div>
-            <ChristmasTree
-                onToggle={() => {
-                    if (paused) {
-                        audio.load()
-                        audio.play()
-                    }
-                }}
-            />
+            <ChristmasTree />
         </div>
 
         <div class="w-full text-center p-4 z-20">
             <div
                 class="flex space-x-4 items-center justify-center mb-24 md:text-lg"
             >
-                {#if paused}
+                {#if $paused}
                     <p class="text-white">
                         Decorate the tree by clicking it 🎅
                     </p>
@@ -98,16 +57,17 @@
                         class="h-8 w-8 cursor-pointer hover:text-white"
                         viewBox="0 0 20 20"
                         fill="currentColor"
-                        on:click={toggleTrack}
+                        on:click={() => skip('next')}
                     >
                         <path
                             d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z"
                         />
                     </svg>
                     <a
-                        href={track.link}
+                        href={$playlist[$currentIndex].link}
                         target="_blank"
-                        class="text-blue-500 hover:underline">{track.name}</a
+                        class="text-blue-500 hover:underline"
+                        >{$playlist[$currentIndex].name}</a
                     >
                 {/if}
             </div>
