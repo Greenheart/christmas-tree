@@ -6,7 +6,7 @@
 
     onMount(() => {
         const w = window.innerWidth
-        const num = w > 700 ? 120 : w > 500 ? 100 : 60
+        const num = w > 700 ? 100 : w > 500 ? 80 : 50
 
         snowflakes = [...Array(num).keys()]
     })
