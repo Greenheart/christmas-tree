@@ -1,12 +1,12 @@
 <script lang="ts">
     import { onMount } from 'svelte'
+    import '../snowfall.css'
 
     let snowflakes = []
 
     onMount(() => {
         const w = window.innerWidth
-        const num =
-            w > 1200 ? 250 : w > 1000 ? 200 : w > 700 ? 150 : w > 500 ? 100 : 60
+        const num = w > 700 ? 120 : w > 500 ? 100 : 60
 
         snowflakes = [...Array(num).keys()]
     })

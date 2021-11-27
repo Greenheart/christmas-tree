@@ -64,7 +64,7 @@
     <source src={track.src} />
 </audio>
 
-<Div100vh class="w-full min-h-screen bg-[#13323d]">
+<Div100vh class="w-full min-h-screen h-screen bg-[#13323d]">
     <Snowfall />
     <div class="w-full h-full items-center flex flex-col justify-between z-10">
         <div class="text-center text-white mt-8 z-20 text-lg md:text-2xl">
