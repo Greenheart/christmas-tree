@@ -31,7 +31,9 @@
 </script>
 
 <Div100vh class="w-full min-h-screen h-screen bg-[#13323d]">
-    <Snowfall />
+    {#if !$paused}
+        <Snowfall />
+    {/if}
     <div class="w-full h-full items-center flex flex-col justify-between z-10">
         <div class="text-center text-white mt-8 z-20 text-lg md:text-2xl">
             <h1 class="font-bold">The Most Sustainable Christmas Tree</h1>
