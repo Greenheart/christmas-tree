@@ -47,10 +47,8 @@
         <ChristmasTree />
     </div>
 
-    <div class="w-full text-center p-4 z-20 fixed bottom-4 left-0">
-        <div
-            class="flex space-x-4 items-center justify-center mb-24 md:text-lg"
-        >
+    <div class="w-full text-center p-4 z-20 fixed bottom-2 left-0">
+        <div class="flex space-x-4 items-center justify-center md:text-lg mb-3">
             {#if $paused}
                 <p class="text-white">Decorate the tree by clicking it 🎅</p>
             {:else}
@@ -73,9 +71,9 @@
                 >
             {/if}
         </div>
-        <div>
+        <div class="h-32">
             <button
-                class="tracking-wider text-white cursor-pointer border border-white px-6 py-2 flex mx-auto items-center justify-center hover:bg-white hover:text-[#f34653] text-lg md:text-xl"
+                class="tracking-wider text-white cursor-pointer border border-white px-5 py-1 flex mx-auto items-center justify-center hover:bg-white hover:text-black"
                 on:click={() => {
                     credits = !credits
                 }}

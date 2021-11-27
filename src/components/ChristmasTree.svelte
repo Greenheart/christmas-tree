@@ -29,6 +29,7 @@
         position: relative;
         top: 50px;
         cursor: pointer;
+        left: -12px;
     }
 
     .tree {
@@ -229,7 +230,7 @@
         height: 20px;
         z-index: -1;
         top: 50px;
-        left: -10px;
+        left: -12px;
         animation: scale 0.5s linear forwards;
     }
 
