@@ -1,12 +1,13 @@
 import { get, writable } from 'svelte/store'
 
-import { Howl } from 'howler'
+import { Howl } from 'howler/src/howler.core.js'
+import type { Howl as HowlType } from 'howler'
 
 export interface Track {
     src: string
     name: string
     link: string
-    howl?: Howl
+    howl?: HowlType
 }
 
 export const paused = writable(true)
