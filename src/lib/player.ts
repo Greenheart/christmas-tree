@@ -13,14 +13,14 @@ export const paused = writable(true)
 
 export const playlist = writable<Track[]>([
     {
-        src: './sb_jul.mp3',
-        name: 'Jul - Scott Buckley',
-        link: 'https://www.scottbuckley.com.au/library/jul',
-    },
-    {
         src: './sb_allyefaithful.mp3',
         name: 'O Come All Ye Faithful - Scott Buckley',
         link: 'https://www.scottbuckley.com.au/library/o-come-all-ye-faithful',
+    },
+    {
+        src: './sb_jul.mp3',
+        name: 'Jul - Scott Buckley',
+        link: 'https://www.scottbuckley.com.au/library/jul',
     },
 ])
 
