@@ -35,7 +35,7 @@
 
 @keyframes snowflake-1 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 58%;
         top: -76%;
     }
@@ -50,7 +50,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 116%;
         opacity: 0;
     }
@@ -69,7 +69,7 @@
 
 @keyframes snowflake-2 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 17%;
         top: -96%;
     }
@@ -84,7 +84,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 136%;
         opacity: 0;
     }
@@ -103,7 +103,7 @@
 
 @keyframes snowflake-3 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 79%;
         top: -76%;
     }
@@ -118,7 +118,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 116%;
         opacity: 0;
     }
@@ -137,7 +137,7 @@
 
 @keyframes snowflake-4 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 84%;
         top: -98%;
     }
@@ -152,7 +152,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 138%;
         opacity: 0;
     }
@@ -171,7 +171,7 @@
 
 @keyframes snowflake-5 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 4%;
         top: -58%;
     }
@@ -186,7 +186,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 98%;
         opacity: 0;
     }
@@ -205,7 +205,7 @@
 
 @keyframes snowflake-6 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 19%;
         top: -72%;
     }
@@ -220,7 +220,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 112%;
         opacity: 0;
     }
@@ -239,7 +239,7 @@
 
 @keyframes snowflake-7 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 2%;
         top: -98%;
     }
@@ -254,7 +254,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 138%;
         opacity: 0;
     }
@@ -273,7 +273,7 @@
 
 @keyframes snowflake-8 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 20%;
         top: -81%;
     }
@@ -288,7 +288,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 121%;
         opacity: 0;
     }
@@ -307,7 +307,7 @@
 
 @keyframes snowflake-9 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 88%;
         top: -67%;
     }
@@ -322,7 +322,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 107%;
         opacity: 0;
     }
@@ -341,7 +341,7 @@
 
 @keyframes snowflake-10 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 99%;
         top: -81%;
     }
@@ -356,7 +356,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 121%;
         opacity: 0;
     }
@@ -375,7 +375,7 @@
 
 @keyframes snowflake-11 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 34%;
         top: -69%;
     }
@@ -390,7 +390,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 109%;
         opacity: 0;
     }
@@ -409,7 +409,7 @@
 
 @keyframes snowflake-12 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 51%;
         top: -93%;
     }
@@ -424,7 +424,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 133%;
         opacity: 0;
     }
@@ -443,7 +443,7 @@
 
 @keyframes snowflake-13 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 40%;
         top: -100%;
     }
@@ -458,7 +458,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 140%;
         opacity: 0;
     }
@@ -477,7 +477,7 @@
 
 @keyframes snowflake-14 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 12%;
         top: -88%;
     }
@@ -492,7 +492,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 128%;
         opacity: 0;
     }
@@ -511,7 +511,7 @@
 
 @keyframes snowflake-15 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 55%;
         top: -86%;
     }
@@ -526,7 +526,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 126%;
         opacity: 0;
     }
@@ -545,7 +545,7 @@
 
 @keyframes snowflake-16 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 83%;
         top: -56%;
     }
@@ -560,7 +560,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 96%;
         opacity: 0;
     }
@@ -579,7 +579,7 @@
 
 @keyframes snowflake-17 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 61%;
         top: -93%;
     }
@@ -594,7 +594,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 133%;
         opacity: 0;
     }
@@ -613,7 +613,7 @@
 
 @keyframes snowflake-18 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 30%;
         top: -83%;
     }
@@ -628,7 +628,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 123%;
         opacity: 0;
     }
@@ -647,7 +647,7 @@
 
 @keyframes snowflake-19 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 15%;
         top: -60%;
     }
@@ -662,7 +662,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 100%;
         opacity: 0;
     }
@@ -681,7 +681,7 @@
 
 @keyframes snowflake-20 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 59%;
         top: -59%;
     }
@@ -696,7 +696,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 99%;
         opacity: 0;
     }
@@ -715,7 +715,7 @@
 
 @keyframes snowflake-21 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 49%;
         top: -100%;
     }
@@ -730,7 +730,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 140%;
         opacity: 0;
     }
@@ -749,7 +749,7 @@
 
 @keyframes snowflake-22 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 25%;
         top: -77%;
     }
@@ -764,7 +764,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 117%;
         opacity: 0;
     }
@@ -783,7 +783,7 @@
 
 @keyframes snowflake-23 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 100%;
         top: -100%;
     }
@@ -798,7 +798,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 140%;
         opacity: 0;
     }
@@ -817,7 +817,7 @@
 
 @keyframes snowflake-24 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 71%;
         top: -58%;
     }
@@ -832,7 +832,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 98%;
         opacity: 0;
     }
@@ -851,7 +851,7 @@
 
 @keyframes snowflake-25 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 70%;
         top: -78%;
     }
@@ -866,7 +866,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 118%;
         opacity: 0;
     }
@@ -885,7 +885,7 @@
 
 @keyframes snowflake-26 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 66%;
         top: -60%;
     }
@@ -900,7 +900,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 100%;
         opacity: 0;
     }
@@ -919,7 +919,7 @@
 
 @keyframes snowflake-27 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 5%;
         top: -90%;
     }
@@ -934,7 +934,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 130%;
         opacity: 0;
     }
@@ -953,7 +953,7 @@
 
 @keyframes snowflake-28 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 100%;
         top: -84%;
     }
@@ -968,7 +968,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 124%;
         opacity: 0;
     }
@@ -987,7 +987,7 @@
 
 @keyframes snowflake-29 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 66%;
         top: -57%;
     }
@@ -1002,7 +1002,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 97%;
         opacity: 0;
     }
@@ -1021,7 +1021,7 @@
 
 @keyframes snowflake-30 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 98%;
         top: -57%;
     }
@@ -1036,7 +1036,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 97%;
         opacity: 0;
     }
@@ -1055,7 +1055,7 @@
 
 @keyframes snowflake-31 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 60%;
         top: -89%;
     }
@@ -1070,7 +1070,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 129%;
         opacity: 0;
     }
@@ -1089,7 +1089,7 @@
 
 @keyframes snowflake-32 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 28%;
         top: -60%;
     }
@@ -1104,7 +1104,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 100%;
         opacity: 0;
     }
@@ -1123,7 +1123,7 @@
 
 @keyframes snowflake-33 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 77%;
         top: -69%;
     }
@@ -1138,7 +1138,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 109%;
         opacity: 0;
     }
@@ -1157,7 +1157,7 @@
 
 @keyframes snowflake-34 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 23%;
         top: -92%;
     }
@@ -1172,7 +1172,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 132%;
         opacity: 0;
     }
@@ -1191,7 +1191,7 @@
 
 @keyframes snowflake-35 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 27%;
         top: -76%;
     }
@@ -1206,7 +1206,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 116%;
         opacity: 0;
     }
@@ -1225,7 +1225,7 @@
 
 @keyframes snowflake-36 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 54%;
         top: -72%;
     }
@@ -1240,7 +1240,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 112%;
         opacity: 0;
     }
@@ -1259,7 +1259,7 @@
 
 @keyframes snowflake-37 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 80%;
         top: -64%;
     }
@@ -1274,7 +1274,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 104%;
         opacity: 0;
     }
@@ -1293,7 +1293,7 @@
 
 @keyframes snowflake-38 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 26%;
         top: -92%;
     }
@@ -1308,7 +1308,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 132%;
         opacity: 0;
     }
@@ -1327,7 +1327,7 @@
 
 @keyframes snowflake-39 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 9%;
         top: -56%;
     }
@@ -1342,7 +1342,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 96%;
         opacity: 0;
     }
@@ -1361,7 +1361,7 @@
 
 @keyframes snowflake-40 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 12%;
         top: -64%;
     }
@@ -1376,7 +1376,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 104%;
         opacity: 0;
     }
@@ -1395,7 +1395,7 @@
 
 @keyframes snowflake-41 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 55%;
         top: -63%;
     }
@@ -1410,7 +1410,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 103%;
         opacity: 0;
     }
@@ -1429,7 +1429,7 @@
 
 @keyframes snowflake-42 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 7%;
         top: -77%;
     }
@@ -1444,7 +1444,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 117%;
         opacity: 0;
     }
@@ -1463,7 +1463,7 @@
 
 @keyframes snowflake-43 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 72%;
         top: -94%;
     }
@@ -1478,7 +1478,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 134%;
         opacity: 0;
     }
@@ -1497,7 +1497,7 @@
 
 @keyframes snowflake-44 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 91%;
         top: -53%;
     }
@@ -1512,7 +1512,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 93%;
         opacity: 0;
     }
@@ -1531,7 +1531,7 @@
 
 @keyframes snowflake-45 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 92%;
         top: -60%;
     }
@@ -1546,7 +1546,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 100%;
         opacity: 0;
     }
@@ -1565,7 +1565,7 @@
 
 @keyframes snowflake-46 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 46%;
         top: -55%;
     }
@@ -1580,7 +1580,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 95%;
         opacity: 0;
     }
@@ -1599,7 +1599,7 @@
 
 @keyframes snowflake-47 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 97%;
         top: -90%;
     }
@@ -1614,7 +1614,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 130%;
         opacity: 0;
     }
@@ -1633,7 +1633,7 @@
 
 @keyframes snowflake-48 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 31%;
         top: -58%;
     }
@@ -1648,7 +1648,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 98%;
         opacity: 0;
     }
@@ -1667,7 +1667,7 @@
 
 @keyframes snowflake-49 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 47%;
         top: -72%;
     }
@@ -1682,7 +1682,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 112%;
         opacity: 0;
     }
@@ -1701,7 +1701,7 @@
 
 @keyframes snowflake-50 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 16%;
         top: -79%;
     }
@@ -1716,7 +1716,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 119%;
         opacity: 0;
     }
@@ -1735,7 +1735,7 @@
 
 @keyframes snowflake-51 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 13%;
         top: -100%;
     }
@@ -1750,7 +1750,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 140%;
         opacity: 0;
     }
@@ -1769,7 +1769,7 @@
 
 @keyframes snowflake-52 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 95%;
         top: -80%;
     }
@@ -1784,7 +1784,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 120%;
         opacity: 0;
     }
@@ -1803,7 +1803,7 @@
 
 @keyframes snowflake-53 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 37%;
         top: -78%;
     }
@@ -1818,7 +1818,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 118%;
         opacity: 0;
     }
@@ -1837,7 +1837,7 @@
 
 @keyframes snowflake-54 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 15%;
         top: -73%;
     }
@@ -1852,7 +1852,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 113%;
         opacity: 0;
     }
@@ -1871,7 +1871,7 @@
 
 @keyframes snowflake-55 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 60%;
         top: -78%;
     }
@@ -1886,7 +1886,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 118%;
         opacity: 0;
     }
@@ -1905,7 +1905,7 @@
 
 @keyframes snowflake-56 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 53%;
         top: -71%;
     }
@@ -1920,7 +1920,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 111%;
         opacity: 0;
     }
@@ -1939,7 +1939,7 @@
 
 @keyframes snowflake-57 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 19%;
         top: -87%;
     }
@@ -1954,7 +1954,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 127%;
         opacity: 0;
     }
@@ -1973,7 +1973,7 @@
 
 @keyframes snowflake-58 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 62%;
         top: -97%;
     }
@@ -1988,7 +1988,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 137%;
         opacity: 0;
     }
@@ -2007,7 +2007,7 @@
 
 @keyframes snowflake-59 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 57%;
         top: -81%;
     }
@@ -2022,7 +2022,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 121%;
         opacity: 0;
     }
@@ -2041,7 +2041,7 @@
 
 @keyframes snowflake-60 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 81%;
         top: -81%;
     }
@@ -2056,7 +2056,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 121%;
         opacity: 0;
     }
@@ -2075,7 +2075,7 @@
 
 @keyframes snowflake-61 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 26%;
         top: -62%;
     }
@@ -2090,7 +2090,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 102%;
         opacity: 0;
     }
@@ -2109,7 +2109,7 @@
 
 @keyframes snowflake-62 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 18%;
         top: -58%;
     }
@@ -2124,7 +2124,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 98%;
         opacity: 0;
     }
@@ -2143,7 +2143,7 @@
 
 @keyframes snowflake-63 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 20%;
         top: -56%;
     }
@@ -2158,7 +2158,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 96%;
         opacity: 0;
     }
@@ -2177,7 +2177,7 @@
 
 @keyframes snowflake-64 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 38%;
         top: -63%;
     }
@@ -2192,7 +2192,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 103%;
         opacity: 0;
     }
@@ -2211,7 +2211,7 @@
 
 @keyframes snowflake-65 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 25%;
         top: -68%;
     }
@@ -2226,7 +2226,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 108%;
         opacity: 0;
     }
@@ -2245,7 +2245,7 @@
 
 @keyframes snowflake-66 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 45%;
         top: -64%;
     }
@@ -2260,7 +2260,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 104%;
         opacity: 0;
     }
@@ -2279,7 +2279,7 @@
 
 @keyframes snowflake-67 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 20%;
         top: -73%;
     }
@@ -2294,7 +2294,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 113%;
         opacity: 0;
     }
@@ -2313,7 +2313,7 @@
 
 @keyframes snowflake-68 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 49%;
         top: -92%;
     }
@@ -2328,7 +2328,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 132%;
         opacity: 0;
     }
@@ -2347,7 +2347,7 @@
 
 @keyframes snowflake-69 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 17%;
         top: -71%;
     }
@@ -2362,7 +2362,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 111%;
         opacity: 0;
     }
@@ -2381,7 +2381,7 @@
 
 @keyframes snowflake-70 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 34%;
         top: -68%;
     }
@@ -2396,7 +2396,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 108%;
         opacity: 0;
     }
@@ -2415,7 +2415,7 @@
 
 @keyframes snowflake-71 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 87%;
         top: -74%;
     }
@@ -2430,7 +2430,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 114%;
         opacity: 0;
     }
@@ -2449,7 +2449,7 @@
 
 @keyframes snowflake-72 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 26%;
         top: -86%;
     }
@@ -2464,7 +2464,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 126%;
         opacity: 0;
     }
@@ -2483,7 +2483,7 @@
 
 @keyframes snowflake-73 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 31%;
         top: -59%;
     }
@@ -2498,7 +2498,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 99%;
         opacity: 0;
     }
@@ -2517,7 +2517,7 @@
 
 @keyframes snowflake-74 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 80%;
         top: -93%;
     }
@@ -2532,7 +2532,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 133%;
         opacity: 0;
     }
@@ -2551,7 +2551,7 @@
 
 @keyframes snowflake-75 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 1%;
         top: -56%;
     }
@@ -2566,7 +2566,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 96%;
         opacity: 0;
     }
@@ -2585,7 +2585,7 @@
 
 @keyframes snowflake-76 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 89%;
         top: -79%;
     }
@@ -2600,7 +2600,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 119%;
         opacity: 0;
     }
@@ -2619,7 +2619,7 @@
 
 @keyframes snowflake-77 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 80%;
         top: -70%;
     }
@@ -2634,7 +2634,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 110%;
         opacity: 0;
     }
@@ -2653,7 +2653,7 @@
 
 @keyframes snowflake-78 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 85%;
         top: -79%;
     }
@@ -2668,7 +2668,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 119%;
         opacity: 0;
     }
@@ -2687,7 +2687,7 @@
 
 @keyframes snowflake-79 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 69%;
         top: -64%;
     }
@@ -2702,7 +2702,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 104%;
         opacity: 0;
     }
@@ -2721,7 +2721,7 @@
 
 @keyframes snowflake-80 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 15%;
         top: -61%;
     }
@@ -2736,7 +2736,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 101%;
         opacity: 0;
     }
@@ -2755,7 +2755,7 @@
 
 @keyframes snowflake-81 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 20%;
         top: -57%;
     }
@@ -2770,7 +2770,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 97%;
         opacity: 0;
     }
@@ -2789,7 +2789,7 @@
 
 @keyframes snowflake-82 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 93%;
         top: -87%;
     }
@@ -2804,7 +2804,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 127%;
         opacity: 0;
     }
@@ -2823,7 +2823,7 @@
 
 @keyframes snowflake-83 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 78%;
         top: -97%;
     }
@@ -2838,7 +2838,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 137%;
         opacity: 0;
     }
@@ -2857,7 +2857,7 @@
 
 @keyframes snowflake-84 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 56%;
         top: -69%;
     }
@@ -2872,7 +2872,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 109%;
         opacity: 0;
     }
@@ -2891,7 +2891,7 @@
 
 @keyframes snowflake-85 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 12%;
         top: -62%;
     }
@@ -2906,7 +2906,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 102%;
         opacity: 0;
     }
@@ -2925,7 +2925,7 @@
 
 @keyframes snowflake-86 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 78%;
         top: -61%;
     }
@@ -2940,7 +2940,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 101%;
         opacity: 0;
     }
@@ -2959,7 +2959,7 @@
 
 @keyframes snowflake-87 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 76%;
         top: -91%;
     }
@@ -2974,7 +2974,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 131%;
         opacity: 0;
     }
@@ -2993,7 +2993,7 @@
 
 @keyframes snowflake-88 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 68%;
         top: -98%;
     }
@@ -3008,7 +3008,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 138%;
         opacity: 0;
     }
@@ -3027,7 +3027,7 @@
 
 @keyframes snowflake-89 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 14%;
         top: -51%;
     }
@@ -3042,7 +3042,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 91%;
         opacity: 0;
     }
@@ -3061,7 +3061,7 @@
 
 @keyframes snowflake-90 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 22%;
         top: -57%;
     }
@@ -3076,7 +3076,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 97%;
         opacity: 0;
     }
@@ -3095,7 +3095,7 @@
 
 @keyframes snowflake-91 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 48%;
         top: -70%;
     }
@@ -3110,7 +3110,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 110%;
         opacity: 0;
     }
@@ -3129,7 +3129,7 @@
 
 @keyframes snowflake-92 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 52%;
         top: -78%;
     }
@@ -3144,7 +3144,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 118%;
         opacity: 0;
     }
@@ -3163,7 +3163,7 @@
 
 @keyframes snowflake-93 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 15%;
         top: -57%;
     }
@@ -3178,7 +3178,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 97%;
         opacity: 0;
     }
@@ -3197,7 +3197,7 @@
 
 @keyframes snowflake-94 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 32%;
         top: -85%;
     }
@@ -3212,7 +3212,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 125%;
         opacity: 0;
     }
@@ -3231,7 +3231,7 @@
 
 @keyframes snowflake-95 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 100%;
         top: -93%;
     }
@@ -3246,7 +3246,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 133%;
         opacity: 0;
     }
@@ -3265,7 +3265,7 @@
 
 @keyframes snowflake-96 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 88%;
         top: -78%;
     }
@@ -3280,7 +3280,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 118%;
         opacity: 0;
     }
@@ -3299,7 +3299,7 @@
 
 @keyframes snowflake-97 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 94%;
         top: -56%;
     }
@@ -3314,7 +3314,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 96%;
         opacity: 0;
     }
@@ -3333,7 +3333,7 @@
 
 @keyframes snowflake-98 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 74%;
         top: -95%;
     }
@@ -3348,7 +3348,7 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 135%;
         opacity: 0;
     }
@@ -3367,7 +3367,7 @@
 
 @keyframes snowflake-99 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
         left: 22%;
         top: -61%;
     }
@@ -3382,8 +3382,42 @@
         opacity: 1;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 360deg);
         top: 101%;
+        opacity: 0;
+    }
+}
+.snowflake:nth-of-type(100) {
+    animation-name: snowflake-100;
+    animation-delay: 16s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    left: 48%;
+    top: -68%;
+}
+.snowflake:nth-of-type(100):after {
+    font-size: 3px;
+}
+
+@keyframes snowflake-100 {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+        left: 48%;
+        top: -68%;
+    }
+    25% {
+        left: 49%;
+    }
+    50% {
+        left: 48%;
+    }
+    75% {
+        left: 50%;
+        opacity: 1;
+    }
+    100% {
+        transform: rotate3d(0, 0, 0, 360deg);
+        top: 108%;
         opacity: 0;
     }
 }
